@@ -151,6 +151,7 @@ document.addEventListener("click", e => {
   save(); render();
 });
 render();
+
 // Seed (starting) data for the simulation. Edit freely: names, prices, stock, recipes.
 // Units are base units: g, ml, pcs. "cost" is peso cost per base unit.
 const SEED = {
